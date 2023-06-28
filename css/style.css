@@ -1,7 +1,8 @@
 .navbar{
     background-color: dark !important;
-    height: 100px;
-    padding-top: 0%;
+    height: 80px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
 }
 .navbar-toggler{
     background-color: white !important;
@@ -35,11 +36,14 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: black;
 }
 
 h1{
-    font-size: 80px;
+    font-size: 3em;
     color: black;
     text-align: center;
 }
@@ -50,9 +54,12 @@ h2{
     color: rgb(255, 255, 255);
 }
 
+#nuestro_origen{
+    background-color: transparent !important;
+}
 
 .image-wrapper {
-    border: 2px solid rgb(4, 64, 114) !important;
+    border: 2px solid rgb(6, 52, 88) !important;
     display: inline-block !important;
     padding: 5px !important;
   }
@@ -62,14 +69,18 @@ h2{
 }
 
 .valores{
-    height: 130px;
-    width: 130px;
+    height: 140px;
+    width: 140px;
 }
 
 .container-fluid.footer{
-    background-color: black;
+    background-color: black !important;
     color: white;
     text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .nav.flex-row{
@@ -80,7 +91,7 @@ h2{
 
 .card-header{
     color: white;
-    background-color: rgba(4, 4, 71, 0.719);
+    background-color: transparent !important;
 }
 
 header{
@@ -95,14 +106,15 @@ header{
 
 .card.servicios{
     width: 800px !important;
-    height: 300px;
+    height: 200px;
     margin: 0 auto;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: transparent;
+    border: transparent;
     color: white;
 }
 
@@ -114,8 +126,8 @@ header{
   }
 
 .icono-flecha{
-    height: 100px;
-    width: 100px;
+    height: 70px !important;
+    width: 70px !important;
 }
 
 .card-body{
@@ -124,8 +136,9 @@ header{
   
 
 .card.unservicio{
-    background-color: rgba(255, 140, 0, 0.815);
+    background-color: rgb(255, 140, 0);
     margin: 0 auto; /* Márgenes automáticos para centrar horizontalmente */
+    justify-content: center;
 }
 
 .card-text-bold{
@@ -154,7 +167,7 @@ header{
 
 .destinos1{
     color: black;
-    background-color: rgba(255, 255, 255, 0.363);
+    background-color: rgba(255, 214, 168, 0.89);
 }
 .card.destinos2{
     background-color: rgba(178, 34, 34, 0.87);
@@ -163,4 +176,21 @@ header{
 .btn{
     display: flex;
     margin: 0 auto;
+}
+
+/* Estilo inicial de la imagen */
+.hover-effect {
+    transition: filter 0.3s ease;
+  }
+  
+/* Efecto hover */
+.hover-effect:hover {
+    filter: brightness(120%);
+  }
+
+.popover {
+    background-color: #063458; /* Cambiar el color del popover a negro */
+}
+.popover-body{
+    color: #fff; /* Cambiar el color del texto dentro del popover a blanco */
 }
