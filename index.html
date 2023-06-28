@@ -16,33 +16,18 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-      <!-- Header -->
-      <header>
-        <div class="container-fluid bg-info" id="SomosMotores">
-          <div class="row">
-            <div class= "col-md-6 col-sm-12">
-              <span class="navbar-text">3624-7116054</span>
-            </div>
-            <div class= "col-md-6 col-sm-12">
-              <span class="navbar-text">
-              contacto@motores.com.ar
-            </span>
-            </div>
-          </div>
-        </div>
-    </header>
     <!-- Barra de navegacion -->
-    <nav class="navbar bg-body-tertiary fixed-top">
-      <div class="container-fluid text-bg-dark container-fluid-sm">
+    <nav class="navbar bg-body-dark fixed-top">
+      <div class="container-fluid text-bg-dark container-fluid-sm ">
         <a class="navbar-brand" href="#">
-          <img src="logo/Sin título-1.png" class="img" width="110px" height="100px" alt="...">
+          <img src="logo/Sin título-1.png" class="img p-0" width="130px" height="50px" alt="...">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
           <div class="offcanvas-header">
-            <img src="logo/Sin título-1.png" class="img" width="150px" height="150px" alt="...">
+            <img src="logo/Sin título-1.png" class="img" width="125px" height="50px" alt="...">
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
           </div>
           <div class="offcanvas-body">
@@ -76,25 +61,25 @@
       </div>
     </nav>
     <!-- Carrusel -->
-    <div class="container-fluid-100%">
+    <div class="container-fluid-100%" id="SomosMotores">
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-caption d-none d-md-block d-sm-block">
+            <div class="carousel-caption d-none d-md-block d-sm-block d-flex align-items-center justify-content-center">
               <h1>SOMOS MOTORES</h1>
               <h2>SOMOS TRANSPORTE</h2>
             </div>
             <img src="imagenes/Carrusel/6-fotor-202306169750.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block d-sm-block">
+            <div class="carousel-caption d-none d-md-block d-sm-block d-flex align-items-center justify-content-center">
               <h1>Otra forma de hacer logística</h1>
               <h2>#SomosSeguros</h2>
             </div>
             <img src="imagenes/Carrusel/10-fotor-2023061691337.png" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <div class="carousel-caption d-none d-md-block d-sm-block">
+            <div class="carousel-caption d-none d-md-block d-sm-block d-flex align-items-center justify-content-center">
               <h1 style="color: white;">TRANSPORTANDO EL PATRIMONIO DE ARGENTINA</h1>
               <bold><h2 style="color: rgb(102, 199, 73);">#SomosConfiables</h2></bold>
             </div>
@@ -103,16 +88,17 @@
         </div>
       </div>
     </div>
+
     <!-- Sección 'Sobre Nosotros' -->
-    <div class="container-fluid mt-3 p-3" style="background-image: url('imagenes/d8207c5f69475fa54591aeb762db8767-fotor-2023061691910.png');" id="SobreNosotros">
+    <div class="container-fluid mt-3 p-3" style="background-color: white;" id="SobreNosotros">
       <div class="container text-center mt-3">
         <div class="row mt-3">
-          <div class="col-12">
+          <div class="">
             <h1 style="font-size: 50px "> SOBRE NOSOTROS... </h1>
           </div>
           <div class="container text-center p-3">
-            <div class="row p-3">
-              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
                 <div class="row">
                   <div class="col p-3">
                     <div class="image-wrapper rounded-circle background-color">
@@ -123,10 +109,6 @@
                     <div class="container p-3 text-center">
                       <br>
                       <br>
-                      <!-- Button trigger modal -->
-                      <button type="button" class="btn btn-primary" style="background-color: black;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                          NUESTRO ORIGEN
-                      </button>
                       <br>
                     </div>
                   </div>
@@ -144,13 +126,18 @@
                   </div>
                 </div>
               </div>
-              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-6 p-3">
-                <div class="container-md-12 p-3">
-                  <div class="col-sm-12 card p-3" style="max-width: 30rem; height: 34rem; background-color: rgba(0, 0, 0, 0.500);">
-                    <div class="card-header" style="background-color: rgb(70, 130, 180);">UN POCO DE HISTORIA</div>
+              <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <div class="container p-3">
+                  <div class="col-sm-12 p-3" style="max-width: 30rem; max-height: 70rem; background-color: rgba(0, 0, 0, 0.500);">
+                    <div class="card-header" id="nuestro_origen">
+                      <!-- Button trigger modal -->
+                      <button type="button" class=" btn btn-primary justify-content-center align-items-center " style="background-color: rgb(6, 52, 88); height: 50px;" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                          NUESTRO ORIGEN
+                      </button>
+                    </div>
                     <div class="card-body p-3">
-                      <h3 class="card-title mb-3" style="color: white">MOTORES TRANSPORTES</h3>
-                      <h4 class="card-text p-3" style="color: white">Somos una empresa argentina con más de 70 años de trayectoria en servicios de envío, transporte y logística de mercancías.<br><br>Operamos no sólo en Argentina, sino también en Chile, Perú y Paraguay.</h4>
+                      <h3 class="card-title mb-3" style="color: white;">MOTORES TRANSPORTES</h3>
+                      <h4 class="card-text p-3" style="color: white;">Somos una empresa argentina con más de 70 años de trayectoria en servicios de envío, transporte y logística de mercancías.<br><br>Operamos no sólo en Argentina, sino también en Chile, Perú y Paraguay.</h4>
                     </div>
                   </div>
                 </div>
@@ -219,30 +206,30 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid p-3 background-color">
+    <div class="container-fluid p-3" style="background-color: #fff;">
       <div class="container text-center mt-3">
         <div class="row mt-3">
-          <div class="col-12" style="color: white; font-size: 40px; font-family: Arial, Helvetica, sans-serif; text-align: center;">NUESTROS VALORES</div>
+          <div class="col-12" style="color: rgb(0, 0, 0); font-size: 40px; font-family: Arial, Helvetica, sans-serif; text-align: center;">NUESTROS VALORES</div>
           <div class="container text-center p-3">
             <div class="row align-items-center">
               <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Confianza">
-                  <img src="iconos/Group 17 (1).png" class="valores rounded mt-3" alt="...">
+                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Confianza">
+                  <img src="iconos/Group 48.png" class="valores rounded mt-3" alt="...">
+                </button>
+              </div>
+              <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3" >
+                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Seguridad" >
+                  <img src="iconos/Group 50.png" class="valores rounded mt-3"  alt="...">
                 </button>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Seguridad">
-                  <img src="iconos/Group 18.png" class="valores rounded mt-3" alt="...">
+                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Lealtad">
+                  <img src="iconos/Group 50 (1).png" class="valores rounded mt-3" alt="...">
                 </button>
               </div>
               <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Lealtad">
-                  <img src="iconos/Group 19.png" class="valores rounded mt-3" alt="...">
-                </button>
-              </div>
-              <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
-                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Integridad">
-                  <img src="iconos/Group 20.png" class="valores rounded mt-3" alt="...">
+                <button type="button" class="btn btn-body" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="left" data-bs-content="Integridad">
+                  <img src="iconos/Group 50 (2).png" class="valores rounded mt-3" alt="...">
                 </button>
               </div>
             </div>
@@ -303,9 +290,9 @@
     <!-- Footer -->
     <div class="container-fluid footer">
       <footer class="col">
-        <div class="row" style="display: flex; justify-content: center; align-items: center;">
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3">
-            <img src="logo/Sin título-1.png" class="img" width="100px" height="100px" alt="...">
+        <div class="row"style="align-items: center; justify-content: center;">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 mt-5">
+            <img src="logo/Sin título-1.png" class="img m-5" width="130px" height="50px" alt="...">
             <ul class="nav flex-column">
               <li class="nav-item mb-2"><a href="#SomosMotores" class="nav-link p-0 text-body-light">Inicio</a></li>
               <li class="nav-item mb-2"><a href="#SobreNosotros" class="nav-link p-0 text-body-light">Nosotros</a></li>
@@ -316,16 +303,14 @@
           </div>
     
     
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 py-5 pe-3">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 mt-5">
             <h5>SEGUINOS EN REDES</h5>
             <ul class="nav flex-row">
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-2 text-body-secondary"><img src="iconos/facebook.png" class="rounded bg-transparent mt-3" alt="" width="75" height="75" style="background-color: transparent;"></a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-2 text-body-secondary"><img src="iconos/instagram.png" class="rounded bg-transparent mt-3" alt="" width="75" height="75" style="background-color: transparent;"></a></li>
-              <li class="nav-item mb-2"><a href="#" class="nav-link p-2 text-body-secondary"><img src="iconos/youtube.png" class="rounded bg-transparent mt-3" alt="" width="75" height="75" style="background-color: transparent;"></a></li>
+              <li class="nav-item"><a href="#" class="nav-link p-2 text-body-secondary"><img src="iconos/medios-de-comunicacion-social.png" class="rounded bg-transparent mt-3" alt="" width="75" height="75" style="background-color: transparent;"></a></li>
             </ul>
           </div>
     
-          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 py-5">
+          <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 mt-5">
             <form>
               <h5>Consultas o reclamos</h5> <br>
               <p>Si tienes alguna duda o reclamo no dudes en contactarte con nosotros y nos comunicaremos de inmediato con vos.</p> <br>
@@ -340,11 +325,6 @@
   
         <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
           <p>© 2023 Company, Inc. All rights reserved.</p>
-          <ul class="list-unstyled d-flex">
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
-            <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
-          </ul>
         </div>
       </footer>
     </div>
